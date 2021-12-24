@@ -7,7 +7,7 @@ Design notes, technical documentation, and code comments that grew too large.
 
 ## Software Details
 
-### Class Heirarchy
+### Class Hierarchy
 
 If it were up to me, I'd implement a monolithic class to serve the API. However, the API expects a
 `KeyScanner` and `LedDriver` class. I use these only to group the related pieces of data together.
